@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "noEmit": true, // 编译后不生成js文件
+    "sourceMap": true,
+    "allowJs": true, // 允许编译JS、JSX文件
+    "noImplicitAny": true, // 不允许隐式的any类型
+    "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "isolatedModules": true,
+    "moduleResolution": "node", // 模块解析与node一致
+    "baseUrl": ".", // paths依赖它
+    "paths": { "@/*": ["./src/*"] } // ts别名
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules/**/*"]
+}
