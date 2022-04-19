@@ -1,0 +1,33 @@
+.video_txt{
+  position: absolute;
+  right: 55%;
+  //margin-right: px;
+  top: 70px;
+}
+
+.video_txt_line {
+  width: 22px;
+  height: 4px;
+  margin: 20px 0;
+  background-color: #31313D;
+}
+
+.video_source{
+  position: absolute;
+  left: 50%;
+  margin-left: -956px;
+  top: 10px;
+  z-index: -1;
+}
+
+.video_txt_img{
+  //width: 330px;
+  //height: 150px;
+}
+
+.font_14 {
+  font-size: 18px;
+  line-height: 25px;
+  color: #5F5F6D;
+  font-weight: 400;
+}

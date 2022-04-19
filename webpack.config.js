@@ -86,6 +86,10 @@ module.exports = {
                             ],
                             '@babel/preset-react',
                         ],
+                        plugins: [
+                            ['import', { libraryName: 'antd', libraryDirectory: 'es', style: 'css' }],     // 处理antd样式
+                            "@babel/plugin-proposal-class-properties",     // 处理类属性定义
+                        ]
                     },
                 },
             },
@@ -111,7 +115,7 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                exclude: [/node_modules/, path.resolve(__dirname, 'src/style')],
+                exclude: [/node_modules/, path.resolve(__dirname, 'src')],
                 use: [
                     MiniCssExtractPlugin.loader,
                     {
@@ -120,7 +124,7 @@ module.exports = {
                             modules: {
                                 // localIdentName: '[hash:base64:8]',
                             },
-                            // javascriptEnabled: true,
+                            javascriptEnabled: true,
                         },
                     },
                     'postcss-loader',
@@ -129,7 +133,7 @@ module.exports = {
             },
             {
                 test: /\.less$/,
-                include: path.resolve(__dirname, 'src/style'),
+                include: /node_modules/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'less-loader'],
             },
             {

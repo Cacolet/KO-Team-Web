@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #FFFFFF;
+  font-size: 20px;
+  align-items: center;
+  padding:0 175px;
+  a {
+    color: #848789;
+    text-decoration: none;
+  }
+  a:hover{
+    color: red;
+  }
+  .avator{
+    flex-basis: 500px;
+  }
+  Link {
+    //flex-basis: 200px;
+    background-color: cadetblue;
+  }
+  .router{
+     display: flex;
+     flex-basis: 400px;
+     font-size: 14px;
+     justify-content: space-around;
+   }
+}
+
+.top{
+  width: 100%;
+  background-color: red;
+  height: 4px;
+}

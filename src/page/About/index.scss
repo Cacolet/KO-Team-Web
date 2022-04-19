@@ -1,0 +1,93 @@
+.about{
+  background-color: #FaFaFa;
+}
+
+.bannerWrap {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://img10.360buyimg.com/ling/jfs/t1/117285/18/19171/460305/5f72e715E323246e2/58cb5c603acb5fff.jpg");
+  background-size: contain;
+}
+
+.teamWrap {
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.card {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgb(0, 0, 0 / 4%);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding: 60px;
+
+  .cardTitle {
+    .text {
+      font-size: 20px;
+      color: #0c0b22;
+    }
+  }
+
+  .cardContent {
+
+  }
+}
+
+
+.w {
+  display: flex;
+
+  .jobPos {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    align-items: center;
+    width: 700px;
+    background-color: #fafafa;
+
+    .teamTitle {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0c0b22;
+      margin-bottom: 40px;
+    }
+
+    .posList {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+
+      .posItem{
+        flex-basis: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 40px;
+
+        .posIcon {
+          background: url("https://jelly.jd.com/3.0/fonts/d8066f4db021373a6f91eb4c04e299de.svg");
+          width: 47px;
+          height: 47px;
+        }
+        .posName{
+          margin: 20px 0 10px;
+        }
+      }
+    }
+  }
+}
+
+.font_14 {
+  font-size: 14px;
+  color: #9e9ea7;
+  line-height: 24px;
+}
