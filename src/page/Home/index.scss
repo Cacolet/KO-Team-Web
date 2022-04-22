@@ -1,8 +1,8 @@
+
 .video_txt{
   position: absolute;
   right: 55%;
   //margin-right: px;
-  top: 70px;
 }
 
 .video_txt_line {
@@ -16,8 +16,12 @@
   position: absolute;
   left: 50%;
   margin-left: -956px;
-  top: 10px;
+  top: 0;
   z-index: -1;
+}
+
+.video_content{
+  padding-left: 10px;
 }
 
 .video_txt_img{
@@ -31,3 +35,25 @@
   color: #5F5F6D;
   font-weight: 400;
 }
+
+.reduce{
+  width: 1140px;
+  margin: 0 auto;
+  background-color: #F5F5FA;
+  height: 115px;
+  padding: 30px 0 0 100px;
+  display: flex;
+  line-height: 21px;
+  & > div{
+    margin-left: 20px;
+    span{
+      font-size: 18px;
+      font-weight: 600;
+    }
+    p{
+      font-size: 14px;
+      color: #5F5F6D;
+    }
+  }
+}
+

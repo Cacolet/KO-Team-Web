@@ -1,3 +1,15 @@
+
+.header_F{
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.top{
+  width: 100%;
+  background-color: red;
+  height: 4px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -5,7 +17,7 @@
   background-color: #FFFFFF;
   font-size: 20px;
   align-items: center;
-  padding:0 175px;
+  //padding:0 175px;
   a {
     color: #848789;
     text-decoration: none;
@@ -24,12 +36,6 @@
      display: flex;
      flex-basis: 400px;
      font-size: 14px;
-     justify-content: space-around;
+     justify-content: space-between;
    }
-}
-
-.top{
-  width: 100%;
-  background-color: red;
-  height: 4px;
 }
