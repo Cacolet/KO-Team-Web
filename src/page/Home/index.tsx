@@ -1,7 +1,6 @@
 import React, {FC} from "react";
 import styles from './index.scss'
 
-
 const Home: FC = () => {
 
     return (
@@ -40,6 +39,7 @@ const Home: FC = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 

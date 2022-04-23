@@ -5,7 +5,7 @@ import Manage from "../page/Manage";
 import Blog from "../page/Blog";
 import Join from "../page/Join";
 import About from "../page/About";
-
+import Footer from "@/layout/Footer";
 import Header from "@/layout/Header";
 
 const Page:FC = () => {
@@ -21,6 +21,7 @@ const Page:FC = () => {
                     <Route path='/about' element={<About/>}></Route>
                 </Routes>
             </div>
+            <Footer />
         </>
     )
 }
