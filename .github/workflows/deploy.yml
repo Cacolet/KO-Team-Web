@@ -29,7 +29,7 @@ jobs:
       run: npm install
 
     - name: Build                 # 第三步，打包代码
-      run: npm run build && process.exit(0)
+      run: npm run build
 
     - name: Deploy to Server      # 第四步，rsync推送文件
       uses: AEnterprise/rsync-deploy@v1.0  # 使用别人包装好的步骤镜像
