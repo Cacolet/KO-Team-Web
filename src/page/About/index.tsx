@@ -27,13 +27,13 @@ const About: FC = () => {
                     <div className={styles.posList}>
                         <div className={styles.posItem}>
                             <i className={styles.posIcon}></i>
-                            <div className={classnames(styles.posName,styles.font_14)}>成都</div>
-                            <div className={classnames(styles.posName,styles.font_14)}>成都校区明理楼C栋1012</div>
+                            <div className={classnames(styles.posName,styles.font_14)}>云上西柚</div>
+                            <div className={classnames(styles.posName,styles.font_14)}>成都校区明理楼C栋1010</div>
                         </div>
                         <div className={styles.posItem}>
                             <i className={styles.posIcon}></i>
-                            <div className={classnames(styles.posName,styles.font_14)}>成都</div>
-                            <div className={classnames(styles.posName,styles.font_14)}>成都校区明理楼C栋1010</div>
+                            <div className={classnames(styles.posName,styles.font_14)}>酷诺软件</div>
+                            <div className={classnames(styles.posName,styles.font_14)}>成都校区明理楼C栋1012</div>
                         </div>
                     </div>
                 </div>
