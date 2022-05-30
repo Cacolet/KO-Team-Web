@@ -7,10 +7,11 @@ import Join from "../page/Join";
 import About from "../page/About";
 import Footer from "@/layout/Footer";
 import Header from "@/layout/Header";
+import styles from "./index.scss";
 
 const Page:FC = () => {
     return (
-        <>
+        <div className={styles.layout}>
             <Header/>
             <div>
                 <Routes>
@@ -22,7 +23,7 @@ const Page:FC = () => {
                 </Routes>
             </div>
             <Footer />
-        </>
+        </div>
     )
 }
 
